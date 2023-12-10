@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;500&display=swap");
+a {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6060aa;
+}
+.container {
+  width: 100%;
+  max-width: 430px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+.container .login-form {
+  padding: 2rem;
+}
+.login-form form {
+  position: relative;
+}
+.login-form h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.login-form form input {
+  height: 60px;
+  width: 100%;
+  font-size: 17px;
+  padding: 0 15px;
+  margin-bottom: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.4s ease;
+}
+.login-form form input:focus {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.login-form form input:focus::placeholder {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.login-form form a {
+  font-size: 16px;
+  color: #009579;
+}
+.login-form form a:hover {
+  text-decoration: underline;
+}
+.login-form form .button {
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  background: #6161ef;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 5px 8px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+.login-form form .button:active {
+  background-color: #4e4eed;
+  box-shadow: none;
+}
+.login-form form .option {
+  text-align: center;
+  font-size: 20px;
+}
+.login-form form .option::before {
+  content: "";
+  background: rgb(72, 68, 68);
+  height: 1px;
+  width: 40%;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.login-form form .option::after {
+  content: "";
+  background: rgb(72, 68, 68);
+  height: 1px;
+  width: 40%;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+.signup {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.signup a{
+  color: #009579;
+}
+.login-form form .login-link {
+  color: #009579;
+  font-size: 20px;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social button {
+  width: 100%;
+  height: 50px;
+  margin-top: 18px;
+  background-color: #6161ef;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 550;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.social .google {
+  color: white;
+  position: absolute;
+  left: 30px;
+  font-size: 25px;
+}
+.social .face {
+  color: white;
+  position: absolute;
+  left: 30px;
+  font-size: 25px;
+}
